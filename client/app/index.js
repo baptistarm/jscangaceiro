@@ -24,4 +24,9 @@ document.querySelector('.form').addEventListener('submit', event => {
 
   tr.appendChild(tdVolume);
   tbody.appendChild(tr);
+
+  campos[0].value = "1987-03-23";
+  campos[1].value = 1;
+  campos[2].value = "0.5";
+  campos[0].focus();
 });
